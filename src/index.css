@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 1. Prevent horizontal scrolling globally */
+html, body {
+  overflow-x: hidden;
+}
+
+/* 2. Make sure the layout respects header/footer and fills viewport */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 3. Make main content grow and keep footer at bottom */
+#__next {
+  flex: 1 0 auto;
+}
+
+/* 4. Responsive font scaling for smaller screens */
+html {
+  font-size: 16px; /* default */
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px; /* smaller font for mobile */
+  }
+
+  /* Reduce padding/margins for smaller screens */
+  h1 {
+    @apply text-3xl;
+  }
+
+  h2 {
+    @apply text-2xl;
+  }
+
+  h3 {
+    @apply text-xl;
+  }
+
+  p, li, span {
+    @apply text-sm;
+  }
+
+  section {
+    @apply px-4 py-8;
+  }
+
+  .container {
+    @apply px-2;
+  }
+
+  button {
+    @apply px-4 py-2 text-sm;
+  }
+}
+
+/* 5. Optional: smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
