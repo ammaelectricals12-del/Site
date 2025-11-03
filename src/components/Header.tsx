@@ -19,7 +19,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2 cursor-pointer" onClick={() => onNavigate('home')}>
-            <img src="/logo.jpg" alt="Logo" className="h-8 w-8 object-contain" />
+            <img src="/logo.jpg" alt="Logo" className="h-14 w-14 object-contain" />
             <span className="text-xl font-bold text-white">Amma Electricals</span>
           </div>
 

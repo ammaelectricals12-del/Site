@@ -6,11 +6,6 @@ interface HomeProps {
   onNavigate: (page: Page) => void;
 }
 
-interface Testimonial {
-  name: string;
-  role: string;
-  content: string;
-}
 
 interface Feature {
   icon: React.ComponentType<{ className?: string }>;
@@ -45,31 +40,12 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
     'Lighting Design & Installation',
     'Safety Inspections',
   ];
-
-  const testimonials: Testimonial[] = [
-    {
-      name: "John Smith",
-      role: "Homeowner",
-      content: "Exceptional service! The team was professional, punctual, and thorough in their work. Highly recommended!"
-    },
-    {
-      name: "Sarah Johnson",
-      role: "Business Owner",
-      content: "Amma Electricals has been maintaining our office building's electrical systems for years. Their expertise and reliability are unmatched."
-    },
-    {
-      name: "Michael Brown",
-      role: "Property Manager",
-      content: "Their emergency response service is fantastic. They've helped us resolve critical electrical issues quickly and efficiently."
-    }
-  ];
-
   return (
     <div className="bg-white text-gray-900">
       {/* Hero Section */}
       <section
         className="relative bg-gray-50 min-h-screen bg-cover bg-center flex items-center justify-center text-center"
-        style={{ backgroundImage: "url('g.jpeg')" }}
+        style={{ backgroundImage: "url('/g.jpeg')" }}
       >
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative px-4 sm:px-6 lg:px-8 max-w-3xl">
@@ -161,7 +137,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
               </p>
               <div className="flex items-center space-x-4">
                 <Phone className="w-8 h-8 text-yellow-500" />
-                <span className="text-2xl font-bold">Call Now: (555) 123-4567</span>
+                <span className="text-2xl font-bold">Call Now: 9845951705</span>
               </div>
             </div>
             <div className="relative">

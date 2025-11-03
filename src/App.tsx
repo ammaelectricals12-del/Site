@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
 import Home from './pages/Home';
 import Services from './pages/Services';
 import About from './pages/About';
@@ -29,7 +30,8 @@ function App() {
     <div className="min-h-screen bg-white">
       <Header currentPage={currentPage} onNavigate={setCurrentPage} />
       <main>{renderPage()}</main>
-      <Footer />
+      <Footer onNavigate={setCurrentPage} />
+      <WhatsAppButton />
     </div>
   );
 }

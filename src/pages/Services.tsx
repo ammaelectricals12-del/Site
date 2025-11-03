@@ -25,7 +25,6 @@ const Services: React.FC<ServicesProps> = ({ onNavigate }) => {
         'Dissolved Gas Analysis (DGA)',
         'Oil quality testing (Acidity, Moisture, Viscosity)',
         'Transformer painting and stickering',
-        'Low viscosity mineral oil supply',
         'Breathers with silica gel supply',
         'New transformer and spares supply',
         'Rented transformer solutions'
