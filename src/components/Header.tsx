@@ -20,7 +20,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
           {/* Logo */}
           <div className="flex items-center space-x-2 cursor-pointer" onClick={() => onNavigate('home')}>
             <img src="/logo.jpg" alt="Logo" className="h-14 w-14 object-contain" />
-            <span className="text-xl font-bold text-white">Amma Electricals</span>
+            <span className="text-3xl font-bold text-white">Amma Electricals</span>
           </div>
 
           {/* Navigation */}

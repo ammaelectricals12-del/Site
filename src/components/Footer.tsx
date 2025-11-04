@@ -13,7 +13,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <img src="/logo.jpg" alt="Logo" className="h-16 w-16 object-contain" />
-              <span className="text-xl font-bold text-white">Amma Electricals</span>
+              <span className="text-3xl font-bold text-white">Amma Electricals</span>
             </div>
             <p className="text-sm mb-4">
               Professional electrical services for residential and commercial properties.
@@ -68,7 +68,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-amber-500" />
-                <span>info@AmmaElectricals.com</span>
+                <span>Ammaelectricals2011@gmail.com</span>
               </li>
               <li className="flex items-center space-x-2">
                 <MapPin className="h-8 w-8 text-amber-500" />

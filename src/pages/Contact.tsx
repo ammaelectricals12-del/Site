@@ -57,7 +57,7 @@ Message: ${formData.message}`;
     {
       icon: Mail,
       title: 'Email',
-      detail: 'info@electripro.com',
+      detail: 'Ammaelectricals2011@gmail.com',
       description: 'We respond within 24 hours',
     },
     {
