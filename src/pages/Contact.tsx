@@ -57,7 +57,7 @@ Message: ${formData.message}`;
     {
       icon: Mail,
       title: 'Email',
-      detail: 'Ammaelectricals2011@gmail.com',
+      detail: 'ammaelectricals2011@gmail.com',
       description: 'We respond within 24 hours',
     },
     {
